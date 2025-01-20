@@ -1,7 +1,8 @@
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter/material.dart';
+
 import 'package:btc_map/features/map/presentation/widgets/sidebar_button.dart';
 import 'package:btc_map/features/map/providers/map_markers_provider.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class MapSidebar extends ConsumerWidget {
   const MapSidebar({super.key});
